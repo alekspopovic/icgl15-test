@@ -27,10 +27,10 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-9121aaf192aaf4039c00.js"
+    "url": "webpack-runtime-3d9f7e67acb80cd30687.js"
   },
   {
-    "url": "styles.eba231e2520280c238e7.css"
+    "url": "styles.26bc234ce6d34ba033b0.css"
   },
   {
     "url": "styles-8636a280cbc61d53ad10.js"
@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "framework-81988deefeb7ee5336d1.js"
   },
   {
-    "url": "app-e9ae09b7b963b276746e.js"
+    "url": "app-498a845c3eb1ff694ec6.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "5b6022c6c641d06947e665982b329414"
+    "revision": "866fd721bff19a3979bfd94980df9c45"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-84df01cf41babe440d0c.js"
@@ -54,13 +54,13 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "15c541d335be7b4f15947a77ad094ff8"
+    "revision": "51db0bfbc2f6c332786cb325500baf9e"
   },
   {
     "url": "a9a7754c-8dc4b8ed258b76827098.js"
   },
   {
-    "url": "8f8121832e054591c08b877abffc7185a909beed-6115a0700f3e159dc8a1.js"
+    "url": "8f8121832e054591c08b877abffc7185a909beed-e2b136b4d7932aa17a2f.js"
   },
   {
     "url": "component---src-pages-index-js-34b05686180f9b5712de.js"
@@ -70,7 +70,7 @@ self.__precacheManifest = [
     "revision": "2ef603829ce453bce88fe752212bba48"
   },
   {
-    "url": "bbad206c5fd9b245cc343989af99bf6e9a70bc28-d779525deb88a6d3667d.js"
+    "url": "bbad206c5fd9b245cc343989af99bf6e9a70bc28-6c41476ca0324b3ef941.js"
   },
   {
     "url": "component---src-pages-accommodation-js-aa75ee9e8558a7f50f88.js"
@@ -123,7 +123,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "5826a3b46e4b7a662b000b3646a63447"
+    "revision": "6c011814c0f2c8602e5b8dc676e41912"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -211,12 +211,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^`), ``)
+  pathname = pathname.replace(new RegExp(`^/icgl15-test`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-e9ae09b7b963b276746e.js`))) {
+  if (!resources || !(await caches.match(`/icgl15-test/app-498a845c3eb1ff694ec6.js`))) {
     return await fetch(event.request)
   }
 
@@ -229,7 +229,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/icgl15-test/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
