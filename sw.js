@@ -27,26 +27,26 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-1eb185c7100025e8cb4c.js"
+    "url": "webpack-runtime-4692cdb2f6c27dbe98f9.js"
   },
   {
-    "url": "styles.b1dc3a94169e99548060.css"
+    "url": "styles.1ea7b4c46946383a80b2.css"
   },
   {
     "url": "styles-8636a280cbc61d53ad10.js"
   },
   {
-    "url": "framework-81988deefeb7ee5336d1.js"
+    "url": "framework-37df0b5633b2d42f8bc2.js"
   },
   {
-    "url": "app-498a845c3eb1ff694ec6.js"
+    "url": "app-44cbcbed8a640ebbeb4d.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a89c372b635dab34e928e74ee39b0bd2"
+    "revision": "4d328d22b78c873eef1ad5a79acc62cb"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-84df01cf41babe440d0c.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-cc2751a409622c7dca7b.js"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -54,72 +54,82 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "ff537447e35b7313f896d74c3fcf8bb3"
+    "revision": "c757a61d5e8b209ebcb20c086f437605"
   },
   {
     "url": "a9a7754c-8dc4b8ed258b76827098.js"
   },
   {
-    "url": "8f8121832e054591c08b877abffc7185a909beed-456aca2e161df3fd9a5c.js"
+    "url": "575ebf4e0bf742bbf028e8c68d97f8159818c782-693f98609dc4a8e97bbf.js"
   },
   {
-    "url": "component---src-pages-index-js-8c0f03eb7d14baaa19c5.js"
+    "url": "component---src-pages-index-js-93d99ec400cda03d4588.js"
   },
   {
     "url": "page-data/index/page-data.json",
     "revision": "2ef603829ce453bce88fe752212bba48"
   },
   {
-    "url": "bbad206c5fd9b245cc343989af99bf6e9a70bc28-6c41476ca0324b3ef941.js"
+    "url": "adcc81df8d56bf2f1094a9dbc997e3b938396275-42b6cc7c2dde46310452.js"
   },
   {
-    "url": "component---src-pages-accommodation-js-aa75ee9e8558a7f50f88.js"
+    "url": "component---src-pages-accommodation-js-6935c0ae3fdfcc9c09b1.js"
   },
   {
     "url": "page-data/accommodation/page-data.json",
     "revision": "f3282ef4c7c6673c956de2c0eef2e90a"
   },
   {
-    "url": "component---src-pages-contact-js-bacf901b0770bd2747ae.js"
+    "url": "cb1608f2-f42423fd144c25316a22.js"
+  },
+  {
+    "url": "component---src-pages-contact-js-01e71c75392cfa31c963.js"
   },
   {
     "url": "page-data/contact/page-data.json",
     "revision": "5838766d7350e27047e33ad75f86d0c7"
   },
   {
-    "url": "component---src-pages-location-js-d529b72d72f462a83767.js"
+    "url": "component---src-pages-location-js-1af66336c286ac2cd5c5.js"
   },
   {
     "url": "page-data/location/page-data.json",
     "revision": "1c5c688f6ffeae37f858988d4ea7d700"
   },
   {
-    "url": "component---src-pages-past-conferences-js-06e3dab947575b709fff.js"
+    "url": "component---src-pages-past-conferences-js-6c3b9f78919ca127f2ec.js"
   },
   {
     "url": "page-data/pastConferences/page-data.json",
     "revision": "9374bcdd443dcf77f3c97036370ccd6a"
   },
   {
-    "url": "component---src-pages-registration-js-814397b900d9554870a3.js"
+    "url": "component---src-pages-registration-js-10d301db6f292930c06b.js"
   },
   {
     "url": "page-data/registration/page-data.json",
     "revision": "1b56bf425ea61fd6e12c419c052d296c"
   },
   {
-    "url": "component---src-pages-tourist-guide-js-492f3ae4fb72ac97542a.js"
+    "url": "component---src-pages-tourist-guide-js-d328e65f6c2971c95001.js"
   },
   {
     "url": "page-data/touristGuide/page-data.json",
     "revision": "fa74aa98edbf284b64cdb3f9eed1b89a"
   },
   {
-    "url": "component---src-pages-travel-info-js-5991e588ef8916e9156d.js"
+    "url": "component---src-pages-travel-info-belgrade-js-935c7c8811c7dc7cb5ba.js"
   },
   {
-    "url": "page-data/travelInfo/page-data.json",
-    "revision": "4a3e0641daaab2184e94d9217ae71f9b"
+    "url": "page-data/travelInfoBelgrade/page-data.json",
+    "revision": "0102d20321bdd6a1e95e9713394d49fc"
+  },
+  {
+    "url": "component---src-pages-travel-info-faculty-js-266352eb95e15e81316e.js"
+  },
+  {
+    "url": "page-data/travelInfoFaculty/page-data.json",
+    "revision": "646e73c64952669355466a102a22a435"
   },
   {
     "url": "manifest.webmanifest",
@@ -216,7 +226,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/icgl15-test/app-498a845c3eb1ff694ec6.js`))) {
+  if (!resources || !(await caches.match(`/icgl15-test/app-44cbcbed8a640ebbeb4d.js`))) {
     return await fetch(event.request)
   }
 
