@@ -27,10 +27,10 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-16ef0af0bcb2c0c482b2.js"
+    "url": "webpack-runtime-a81b3981dce34a22babe.js"
   },
   {
-    "url": "styles.56ea7b9f460f034f45a5.css"
+    "url": "styles.d17c2b305861ad3ed29c.css"
   },
   {
     "url": "styles-8636a280cbc61d53ad10.js"
@@ -39,11 +39,11 @@ self.__precacheManifest = [
     "url": "framework-37df0b5633b2d42f8bc2.js"
   },
   {
-    "url": "app-44cbcbed8a640ebbeb4d.js"
+    "url": "app-55e06a72731649180d28.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "eb85cf39efa7164f9a8e550049ca3cf6"
+    "revision": "70785ed49d8542217d154b03f15504c8"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-cc2751a409622c7dca7b.js"
@@ -54,26 +54,26 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "2fac0c54c6d90480ada56ea6728a5c6b"
+    "revision": "ae338ba89bf7028599f6cc18a009a70a"
   },
   {
     "url": "a9a7754c-8dc4b8ed258b76827098.js"
   },
   {
-    "url": "575ebf4e0bf742bbf028e8c68d97f8159818c782-487cc0e6b54376229334.js"
+    "url": "14bfd844193e4fb3cbfc42acca541fc203ab5bad-7fb62ad654d8952e26d8.js"
   },
   {
-    "url": "component---src-pages-index-js-93d99ec400cda03d4588.js"
+    "url": "component---src-pages-index-js-8d94b870fcce0dc6e442.js"
   },
   {
     "url": "page-data/index/page-data.json",
     "revision": "2ef603829ce453bce88fe752212bba48"
   },
   {
-    "url": "adcc81df8d56bf2f1094a9dbc997e3b938396275-ee6ba4b580b7d3bbd891.js"
+    "url": "adcc81df8d56bf2f1094a9dbc997e3b938396275-132dda8e360e16cff19e.js"
   },
   {
-    "url": "component---src-pages-accommodation-js-6935c0ae3fdfcc9c09b1.js"
+    "url": "component---src-pages-accommodation-js-dc00fbc068d132c20e41.js"
   },
   {
     "url": "page-data/accommodation/page-data.json",
@@ -83,49 +83,49 @@ self.__precacheManifest = [
     "url": "cb1608f2-f42423fd144c25316a22.js"
   },
   {
-    "url": "component---src-pages-contact-js-01e71c75392cfa31c963.js"
+    "url": "component---src-pages-contact-js-94f29f1e62aefb057a12.js"
   },
   {
     "url": "page-data/contact/page-data.json",
     "revision": "5838766d7350e27047e33ad75f86d0c7"
   },
   {
-    "url": "component---src-pages-location-js-1af66336c286ac2cd5c5.js"
+    "url": "component---src-pages-location-js-176db9aaf20d8788424a.js"
   },
   {
     "url": "page-data/location/page-data.json",
     "revision": "1c5c688f6ffeae37f858988d4ea7d700"
   },
   {
-    "url": "component---src-pages-past-conferences-js-05eaf5225aff1bfc4007.js"
+    "url": "component---src-pages-past-conferences-js-5084265e4e6ab9419e18.js"
   },
   {
     "url": "page-data/pastConferences/page-data.json",
     "revision": "9374bcdd443dcf77f3c97036370ccd6a"
   },
   {
-    "url": "component---src-pages-registration-js-10d301db6f292930c06b.js"
+    "url": "component---src-pages-registration-js-fe26f88bda34c8062a81.js"
   },
   {
     "url": "page-data/registration/page-data.json",
     "revision": "1b56bf425ea61fd6e12c419c052d296c"
   },
   {
-    "url": "component---src-pages-tourist-guide-js-dcb0fc684fbd98931188.js"
+    "url": "component---src-pages-tourist-guide-js-b23e9f7a0b152662d0fd.js"
   },
   {
     "url": "page-data/touristGuide/page-data.json",
     "revision": "fa74aa98edbf284b64cdb3f9eed1b89a"
   },
   {
-    "url": "component---src-pages-travel-info-belgrade-js-935c7c8811c7dc7cb5ba.js"
+    "url": "component---src-pages-travel-info-belgrade-js-9f562393f0100f7d2c2b.js"
   },
   {
     "url": "page-data/travelInfoBelgrade/page-data.json",
     "revision": "0102d20321bdd6a1e95e9713394d49fc"
   },
   {
-    "url": "component---src-pages-travel-info-faculty-js-266352eb95e15e81316e.js"
+    "url": "component---src-pages-travel-info-faculty-js-21f5edf17596d3ad0621.js"
   },
   {
     "url": "page-data/travelInfoFaculty/page-data.json",
@@ -226,7 +226,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/icgl15-test/app-44cbcbed8a640ebbeb4d.js`))) {
+  if (!resources || !(await caches.match(`/icgl15-test/app-55e06a72731649180d28.js`))) {
     return await fetch(event.request)
   }
 
