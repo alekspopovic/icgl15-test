@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-7f0bd1053b3e5ea78e8b.js"
+    "url": "webpack-runtime-6a6702ce1aa1174ed8d8.js"
   },
   {
     "url": "styles.455f441885e496018bc5.css"
@@ -43,7 +43,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "fbad0c64f32b88338ae7270654a0eebf"
+    "revision": "9cd54a7c93387079ba64924a333577f2"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-cc2751a409622c7dca7b.js"
@@ -54,7 +54,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "9fc54236cfca6380091eb5275db0145b"
+    "revision": "26be63e4ff177a71b87392a627891ac0"
   },
   {
     "url": "a9a7754c-8dc4b8ed258b76827098.js"
@@ -63,7 +63,7 @@ self.__precacheManifest = [
     "url": "14bfd844193e4fb3cbfc42acca541fc203ab5bad-89da4143f38f38aa6304.js"
   },
   {
-    "url": "component---src-pages-index-js-f1426823ab16bb46bb5c.js"
+    "url": "component---src-pages-index-js-5592cbc482c052924816.js"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -111,14 +111,14 @@ self.__precacheManifest = [
     "revision": "1b56bf425ea61fd6e12c419c052d296c"
   },
   {
-    "url": "component---src-pages-tourist-guide-js-b23e9f7a0b152662d0fd.js"
+    "url": "component---src-pages-tourist-guide-js-6c228b234e863d1ba48b.js"
   },
   {
     "url": "page-data/touristGuide/page-data.json",
     "revision": "fa74aa98edbf284b64cdb3f9eed1b89a"
   },
   {
-    "url": "component---src-pages-travel-info-belgrade-js-9f562393f0100f7d2c2b.js"
+    "url": "component---src-pages-travel-info-belgrade-js-60b02b6c9d3570cbf9da.js"
   },
   {
     "url": "page-data/travelInfoBelgrade/page-data.json",
